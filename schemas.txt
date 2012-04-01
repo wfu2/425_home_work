@@ -80,6 +80,7 @@ CK: creditCardNo
 CK: firstName,lastName,phone
 CK: firstName,lastName,address
 
+
 StaffInfo
 -----------------------------
 staffId: numeric(5,0)
@@ -114,6 +115,7 @@ FK: memberId references MemberInfo
 FK: staffId references StaffInfo
 FK: typeId references AccountType
 CK: memberId, staffId
+
 
 AccountType
 ------------------------------
